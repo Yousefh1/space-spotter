@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= stylesheet href="{{ url_for('static', filename='style.css') }}">
+    <title>Space Spotter</title>
+</head>
+<body>
+    <div class="navbar">
+        
+        <div>
+            <span>Space Spotter</span>
+        </div>
+        <div>
+            <a href="#">Login</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+       
+    
+    </div>
+    <div class="map_pic">
+ <img src="{{ url_for('static', filename='images/map.webp') }}" alt="map">
+</div>
+</body>
+</html>
